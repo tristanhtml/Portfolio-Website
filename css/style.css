@@ -1,7 +1,7 @@
 body {
-  font-size: 14px;
-  color: #333;
-  background-color: #fff;
+  font-size: 17px;
+  color: rgb(51, 50, 61);
+  background-color: rgb(245,245,245);
   letter-spacing: 1px;
 }
 
@@ -46,7 +46,7 @@ body {
 }
 
 .titleMessage .heading p{
-  color: #fff;
+  color: rgb(245,245,245);
   text-shadow: 0px 2px 5px rgba(0,0,0,0.4);
   font-weight: 100;
   letter-spacing: 4px;
@@ -57,7 +57,7 @@ body {
 }
 
 .titleMessage .heading .sub {
-  font-size: 23px;
+  font-size: 25px;
 }
 
 .section {
@@ -70,8 +70,12 @@ body {
 
 .skillsSection,
 .contactSection {
-    background-color: #e74c3c;
-    color: #fff;
+    background-color: rgb(15, 22, 38);
+    color: rgb(245,245,245);
+}
+
+.contactSection .subHeading{
+  font-size: 24px;
 }
 
 .skill {
@@ -94,7 +98,7 @@ body {
 }
 
 .chart .percent {
-  color: #000;
+  color: rgb(255,83,61);
   line-height: 152px;
   display: inline-block;
   font-size: 35px;
@@ -113,7 +117,7 @@ body {
   position: relative;
   padding: 50px 15px 35px;
   text-align: center;
-  border: 2px solid #444;
+  border: 2px solid rgb(51,50,61);
   border-top: none;
 }
 
@@ -123,7 +127,7 @@ body {
   position: absolute;
   top: 0px;
   width: 30%;
-  border-bottom: 2px solid #444;
+  border-bottom: 2px solid rgb(51,50,61);
 }
 
 .squareInnerContainer:before {
@@ -138,7 +142,7 @@ body {
   font-size: 56px;
   margin-bottom: 10px;
   font-weight: 400;
-  color: #e74c3c;
+  color: rgb(255,83,61);
 }
 
 .squareContent h3{
@@ -155,28 +159,28 @@ body {
   height: 60px;
   font-size: 45px;
   margin-left: -20%;
-  color: #444;
+  color: rgb(51,50,61);
 }
 
 .contactButton {
 
-  color: #fff;
+  color: rgb(245,245,245);
   padding: 15px 20px;
   display: inline-block;
   margin-top: 20px;
-  border: 1px solid #fff;
+  border: 1px solid rgb(245,245,245);
   border-radius: 2px;
 }
 
 .contactButton:hover {
   text-decoration: none;
-  color: #e74c3c;
-  background-color: #fff;
+  color: rgb(15, 22, 38);
+  background-color: rgb(245,245,245);
 }
 
 .filter a {
-  color: #bdc3c7;
-  border: 1px solid #bdc3c7;
+  color: rgb(51, 50, 61);
+  border: 1px solid rgb(51, 50, 61);
   padding: 10px 18px;
   display: block;
 }
@@ -187,9 +191,9 @@ body {
 }
 
 .filter .current {
-  background-color: #e74c3c;
-  border-color: #e74c3c;
-  color: #fff;
+  background-color: rgb(15, 22, 38);
+  border-color: rgb(15, 22, 38);
+  color: rgb(245,245,245);
 }
 
 .filter {
@@ -240,7 +244,7 @@ body {
 }
 
 .items .icons i {
-  color: #fff;
+  color: rgb(245,245,245);
   font-size: 20px;
   margin-top: 9px;
 }
@@ -248,7 +252,7 @@ body {
 .items a {
   width: 40px;
   height: 40px;
-  background-color: #e74c3c;
+  background-color: rgb(15, 22, 38);
   position: relative;
   display: inline-block;
 
@@ -311,8 +315,8 @@ body {
 }
 
 .copyrightSection {
-  background-color: #000;
-  color: #fff;
+  background-color: rgb(171,152,120);
+  color: rgb(245,245,245);
   padding: 30px 5px;
 }
 
@@ -321,7 +325,7 @@ body {
 }
 
 #navigation {
-  background-color: #e74c3c;
+  background-color: rgb(15, 22, 38);
   padding: 20px 10px;
   z-index: 100;
   width: 100%;
@@ -332,12 +336,12 @@ body {
 }
 
 #navigation li a {
-  color: #fff;
+  color: rgb(245,245,245);
 }
 
 .navbar-brand,
 .navbar-brand:hover {
-  color: #fff;
+  color: rgb(245,245,245);
 }
 
 .navbar-toggler-icon {
@@ -353,7 +357,7 @@ body {
 .loader {
   width: 100%;
   height: 100%;
-  background-color: #fff;
+  background-color: rgb(245,245,245);
   position: fixed;
   top: 0px;
   left: 0px;
