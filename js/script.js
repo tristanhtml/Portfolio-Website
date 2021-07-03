@@ -1,3 +1,21 @@
+$(window).on("load", function() {
+
+    $(".loader .inner").fadeOut(500, function() {
+        $(".loader").fadeOut(750);
+    });
+
+    $(".items").isotope({
+        filter: '*',
+        animationOptions: {
+            duration: 1500,
+            easing: 'linear',
+            queue: false
+        }
+    });
+})
+
+
+
 $(document).ready(function() {
 
   $('#slides').superslides({
@@ -7,7 +25,7 @@ $(document).ready(function() {
   });
 
   var typed = new Typed(".typed", {
-      strings: ["Web Developer.", "Support Analyst.", "Lifelong Learner."],
+      strings: ["Web Developer.", "Application Support Analyst.", "Lifelong Learner."],
       typeSpeed: 70,
       loop: true,
       startDelay: 1000,
@@ -68,14 +86,6 @@ $(document).ready(function() {
 
     $("[data-fancybox]").fancybox();
 
-    $(".items").isotope({
-        filter: '*',
-        animationOptions: {
-            duration: 1500,
-            easing: 'linear',
-            queue: false
-        }
-    });
 
     $("#filters a").click(function() {
         $("#filters .current").removeClass("current");
@@ -102,11 +112,6 @@ $(document).ready(function() {
         var targetPosition = $(targetElement).offset().top;
         $("html, body").animate({ scrollTop: targetPosition - 50 }, "slow");
     });
-
-
-
-
-
 
 
     const nav = $("#navigation");
